@@ -1,0 +1,54 @@
+
+
+body{
+	background-image: url(images/black.jpeg);
+	background-size: cover;	
+}
+
+h1{
+	color:#EE82EE;
+	float: right-side;
+}
+
+h2{
+	color:#EE82EE;
+}
+
+h3{
+	color:#EE82EE;
+}
+
+h4  {
+	color:#EE82EE;
+}
+
+
+.topnav {
+  overflow: hidden;
+  float:right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:brown;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.topnav a:hover {
+  background-color:#87CEEB;
+  color: orange;
+}
+.hover-image{
+	transition:transform 0.3s ease;
+	border-radius: 50%; 
+}
+.hover-image:hover {
+	transform:scale(0.8);
+	border-radius: 50%; 
+}

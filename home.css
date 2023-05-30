@@ -1,0 +1,79 @@
+
+
+body{
+	background-image: url(images/Black.jpeg);
+	background-size: cover;	
+}
+
+h1{
+	color:#EE82EE;
+}
+h4{
+	color:#EE82EE;
+}
+
+.topnav {
+  overflow: hidden;
+  float:right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.topnav a:hover {
+  background-color:#87CEEB;
+  color: orange;
+}
+
+
+.search {
+	float: left;
+	width: 20%;
+	font-size: 17px;
+	border-left: none;
+	cursor: pointer;
+}
+
+.column{
+	width:100%
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+.hover-image{
+	transition:transform 0.3s ease;
+	
+}
+.hover-image:hover {
+	transform:scale(0.8);
+	 
+}
